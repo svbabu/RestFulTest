@@ -4,7 +4,7 @@ pipeline {
     stages { 
         stage('Build') { 
             steps { 
-               echo ' echo 'https://github.com/svbabu/RestFulTest.git' 
+                echo 'https://github.com/svbabu/RestFulTest.git' 
             }
         }
     }
