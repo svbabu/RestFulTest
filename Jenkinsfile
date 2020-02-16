@@ -17,7 +17,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                echo 'This is a minimal pipeline.'
+                echo 'https://github.com/svbabu/RestFulTest.git'
             }
         }
     }
