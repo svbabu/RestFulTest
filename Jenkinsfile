@@ -4,7 +4,7 @@ pipeline {
     stages { 
         stage('Build') { 
             steps { 
-               sh 'https://github.com/svbabu/RestFulTest.git' 
+               sh 'mvn -B -DskipTests clean package' 
             }
         }
     }
