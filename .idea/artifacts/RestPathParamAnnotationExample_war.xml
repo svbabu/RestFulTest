@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RestPathParamAnnotationExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="RestPathParamAnnotationExample.war">
+      <element id="artifact" artifact-name="RestPathParamAnnotationExample:war exploded" />
+    </root>
+  </artifact>
+</component>
