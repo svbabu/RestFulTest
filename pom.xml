@@ -3,7 +3,7 @@
   <groupId>RestPathParamAnnotationExample</groupId>
   <artifactId>RestPathParamAnnotationExample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   
   <repositories>
 		<repository>
