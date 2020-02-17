@@ -18,7 +18,7 @@ public class RestServicePathParamJava4s {
 		
 		String output = "Customer name - "+name+", Country - "+country+""; 
 		return Response.status(200).entity(output).build();
- 
+   // hello world
 	}
 }
 //****By Sivateja _ www.Java4s.com******/
