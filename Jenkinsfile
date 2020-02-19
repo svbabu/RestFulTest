@@ -2,7 +2,7 @@
 node{
   stage ('Build') {
 
-    git url: 'https://github.com/cyrille-leclerc/multi-module-maven-project'
+    git url: 'https://github.com/svbabu/RestFulTest.git'
 
     withMaven(
         // Maven installation declared in the Jenkins "Global Tool Configuration"
