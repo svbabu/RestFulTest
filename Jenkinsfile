@@ -1,5 +1,5 @@
 
-node('windows'){ 
+node(){ 
     agent any  
     stages { 
         stage('Build') { 
