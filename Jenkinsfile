@@ -11,7 +11,7 @@ node{
         // We recommend to define Maven settings.xml globally at the folder level using 
         // navigating to the folder configuration in the section "Pipeline Maven Configuration / Override global Maven configuration"
         // or globally to the entire master navigating to  "Manage Jenkins / Global Tools Configuration"
-       Global Tools Configuration: 'MyGlobalSettings') {
+      globalMavenSettingsConfig: 'MyGlobalSettings') {
 
       // Run the maven build
       sh "mvn clean verify"
